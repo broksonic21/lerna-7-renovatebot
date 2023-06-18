@@ -1,0 +1,29 @@
+{
+  "name": "@broksonic21/shared-configs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "shared configurations",
+  "license": "UNLICENSED",
+  "files": [],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish": "lerna publish",
+    "test": "echo 'no tests yet'"
+  },
+  "dependencies": {
+    "@broksonic21/eslint-wrapper": "file:packages/eslint-wrapper"
+  },
+  "devDependencies": {
+    "lerna": "6.6.2",
+    "nx": "16.3.2"
+  },
+  "volta": {
+    "node": "18.16.0",
+    "npm": "9.7.1"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

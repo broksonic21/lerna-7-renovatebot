@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "5.1.1",
+  "npmClient": "npm",
+  "useNx": true,
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com",
+      "message": "chore(lerna): publish",
+      "allowBranch": "main"
+    }
+  }
+}
