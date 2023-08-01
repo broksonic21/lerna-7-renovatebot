@@ -6,7 +6,7 @@
   "files": [
   ],
   "dependencies": {
-    "eslint": "8.39.0"
+    "eslint": "8.46.0"
   },
   "volta": {
     "extends": "../../package.json"
